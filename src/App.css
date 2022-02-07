@@ -109,3 +109,9 @@ h5 {
   margin-top: 10px;
   margin-bottom: 10px;
 }
+div.card {
+  border: 5px solid #fec601;
+  margin: 40px 80px;
+  padding: 25px;
+  font-family: 'Source Serif 4', sans-serif;
+}

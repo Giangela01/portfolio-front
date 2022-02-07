@@ -5,9 +5,9 @@ import { Route, Switch } from "react-router-dom";
 //pages
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
+import ContactMe from './pages/ContactMe';
 
 function App() {
-  const URL ="https://portfoliolab.herokuapp.com/"
   return (
     <div className="App">
       <Header />
@@ -19,6 +19,7 @@ function App() {
           <Projects URL={URL} />
         </Route>
       </Switch>
+      <ContactMe />
     </div>
   );
 }
